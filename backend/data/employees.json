@@ -1,0 +1,62 @@
+[
+    {
+       "First_Name": "Saman",
+       "Last_Name" : "De Silva",
+       "Address"   : "156/c, Colombo",
+       "BirthDay"  : "12/03/1997",
+       "Gender"    : "Male",
+       "Email_Address" : "samanlive@gmail.com",
+       "Phone_Number"  : "0763889213",
+       "OT_Rates"  : "3.2%",
+       "Basic_Salary"  : "20000.00"
+    },
+
+    {
+        "First_Name": "Sunil",
+        "Last_Name" : "Perera",
+        "Address"   : "120/b,Malwaththa Road, Colombo",
+        "BirthDay"  : "26/12/1996",
+        "Gender"    : "Male",
+        "Email_Address" : "sunillive@gmail.com",
+        "Phone_Number"  : "0773226571",
+        "OT_Rates"  : "3.2%",
+        "Basic_Salary"  : "20500.00"
+     },
+
+     {
+      "First_Name": "Saman",
+      "Last_Name" : "Kumara",
+      "Address"   : "156/c, Puwakdandawa,Beliaththa",
+      "BirthDay"  : "26/10/1994",
+      "Gender"    : "Male",
+      "Email_Address" : "kumaralive@gmail.com",
+      "Phone_Number"  : "0773257451",
+      "OT_Rates"  : "3.2%",
+      "Basic_Salary"  : "20500.00"
+   },
+
+   {
+      "First_Name": "Udan",
+      "Last_Name" : "Chandaka",
+      "Address"   : "12/c, colombo 7",
+      "BirthDay"  : "22/04/1999",
+      "Gender"    : "Male",
+      "Email_Address" : "udanlive@gmail.com",
+      "Phone_Number"  : "0771238671",
+      "OT_Rates"  : "3.2%",
+      "Basic_Salary"  : "20500.00"
+   },
+
+   {
+      "First_Name": "Supuni",
+      "Last_Name" : "Gunawardhana",
+      "Address"   : "117/b,Malwaththa Road, Boralasgamuwa",
+      "BirthDay"  : "26/12/1996",
+      "Gender"    : "Femail",
+      "Email_Address" : "supuni12live@gmail.com",
+      "Phone_Number"  : "0773226571",
+      "OT_Rates"  : "2.0%",
+      "Basic_Salary"  : "20500.00"
+   }
+  
+]

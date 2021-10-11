@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+*, ::after, ::before {
+    /* box-sizing: unset !important;        */
+    /* overide bootsrap sccs */
+}
+
+.svg457896k{
+    vertical-align:unset
+}
+
+.cart456logo{
+    fill:#ff4c4c;
+    float:left;
+    display:inline;
+    
+  }
+  
+.cartdiv456{
+    position: relative;
+    z-index: 10;
+    background-color:rgb(255, 231, 231);
+    height:60px;
+    padding:0 20px 0 20px;
+    border-radius:30px;
+    width:100px;
+    margin-top: 2em;
+    margin-bottom: -6em;
+ 
+}
+  
+  .cartnumber654{
+    float:right;
+    display:inline-block;
+    font-weight:bold;
+    font-size:30px;
+    color:rgb(92, 27, 27);
+    margin-top:-4.8em;
+    margin-left:-25em;
+  }
+
+.cart1122335522{
+    font-size:30px;
+}
+
+
+
+header{
+    top:0;
+}
+
+.container5555{
+    width: 100%;
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    margin-top: 2%;
+    background-attachment: fixed;
+    margin-bottom:30px;
+
+}
+
+.back1{
+    width:100%;
+    height: 100%;
+    opacity: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.logoheader{
+    width: 120px;
+    cursor: pointer;
+    border-radius: 30%;
+
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+
+}
+
+.navbar nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-left: -20px;
+    font-family: el messiri;
+    margin-bottom: 5px;
+}
+
+
+nav img{
+    margin-top: 75px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: el messiri;
+    letter-spacing: 0.1cm;
+}
+nav ul li a:hover{
+
+    color: red;
+
+}
+
+/*mama dapu tikak*/
+.avatar {
+    position: relative;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+.spd{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: el messiri;
+    letter-spacing: 0.1cm;
+    margin-top: 5%;
+    margin-left: -11px;
+}
+.spd1{
+    text-decoration: none;
+   
+} 
+
+
+
+
+.spd:hover{
+
+    color: red;
+
+}
+
+.loginCon{
+    margin-right: 10px;
+}

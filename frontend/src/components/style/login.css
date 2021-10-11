@@ -1,0 +1,621 @@
+
+/*login ekata  line no 77 dakwa*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: bold;
+  font-style: oblique;
+  
+ 
+}
+
+.mylogin{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("login.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*me deka gehuwe header eke awula hdanan thiran kiyapu nisa*/
+  margin-top: 80px;
+  margin-bottom: -60px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+.control label{
+  color:#fff;
+  font-family: "Open Sans";
+}
+
+
+.form-container{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),(rgba(0, 0, 0, 0.3)));
+  width: 380px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+
+
+.h1{
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.control input{
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: #222;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+}
+.control input:focus{
+  background-color: #fff;
+ 
+}
+
+
+.control input[type ="submit"]{
+  background: rgb(248, 3, 52);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link a{
+  text-decoration: none;
+  color: #fff;
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
+.link a:hover{
+  opacity: 1;
+}
+.link6 a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
+.link6 a:hover{
+  opacity: 1;
+}
+
+
+
+/*profile ekata adlawa */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/*
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f3f3;
+}*/
+
+.wrapperDV{
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  width: 70%;
+  height: 70%;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.wrapperDV .leftPv{
+  width: 25%;
+  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.wrapperDV .leftPv img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapperDV .leftPv h4{
+  margin-bottom: 10px;
+}
+
+.wrapperDV .leftPv p{
+  font-size: 12px;
+}
+
+.wrapperDV .right{
+  width: 60%;
+  background: #fff;
+  padding: 30px 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.wrapperDV .right .info,
+.wrapperDV .right .projects{
+  margin-bottom: 25px;
+}
+
+.wrapperDV .right .info h3,
+.wrapperDV .right .projects h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.wrapperDV .right .info_data,
+.wrapperDV .right .projects_data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperDV .right .info_data .data,
+.wrapperDV .right .projects_data .data{
+  width: 40%;
+}
+
+.wrapperDV .right .info_data .data h4,
+.wrapperDV .right .projects_data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+
+.wrapperDV .right .info_data .data p,
+.wrapperDV .right .projects_data .data p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+
+.link2 a{
+  text-decoration: none;
+  font-family: "Open Sans";
+  
+ 
+}
+
+.profileBtn{
+  background: rgb(52, 206, 206);
+  font-size: 1.0em;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+  width: 120px;
+  height: 50px;
+  margin: 1em 0;
+  padding: auto;
+  
+}
+
+.myProfile{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("myprofile2.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*me deka gehuwe header eke awula hdanan thiran kiyapu nisa*/
+  margin-top: 80px;
+  margin-bottom: -60px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+
+
+/*Registeration form ekt adala tika*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/*
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}*/
+/*
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}*/
+
+/*
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}*/
+.content .rform .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.rform .user-details .input-box{
+  margin-bottom: 10px;
+  width: calc(100% / 2 - 20px);
+}
+.rform .input-box, span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color:#000;
+}
+.rform .input-box span.details1{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color:#fff;
+}
+.user-details .input-box input,select{
+  height: 33px;
+  width: 60%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+ .rform .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10%;
+ }
+ .rform .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ .rform .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ .rform .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b59b6;
+   border-color: #d9d9d9;
+ }
+ .rform input[type="radio"]{
+   display: none;
+ }
+ .rform .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ .rform .button input{
+   height: 100%;
+   width: 40%;
+   margin-left: 25%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ .rform .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
+  /*
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}*/
+
+
+.myRegister{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("myprofile2.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*me deka gehuwe header eke awula hdanan thiran kiyapu nisa*/
+  margin-top: 80px;
+  margin-bottom: -40px;
+}
+.myRegister1{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  /*me deka gehuwe header eke awula hdanan thiran kiyapu nisa*/
+  margin-top: 30px;
+  margin-bottom: -40px;
+  margin-left:-10%
+}
+
+.form-container2{
+  position: absolute;
+  top: 1%;
+  left: 10%;
+  transform: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),(rgba(0, 0, 0, 0.3)));
+  width: 80%;
+  height: 92%;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+
+}
+.form-containerss2{
+  position: absolute;
+  top: 1%;
+  left: 10%;
+  transform: 50%;
+  background:url('./nickie-joseph-T6oD9CIlpGA-unsplash.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 80%;
+  height: 98%;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+
+}
+
+
+/*meka wenas krnn epa*/
+.avatar1 {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+ 
+}
+
+.avatarContent{
+  display: flex;
+  justify-content: center;
+  margin-top: -2%;
+}
+
+.input-box2{
+  height: 35px;
+  width: 60%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+
+.controlUpdatePwd input[type ="submit"]{
+  background: crimson;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.controlUpdatePwd input[type="submit"]:hover{
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.controlUpdatePwd input{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: #222;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+}
+
+
+
+.myUpdatePwd{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("myprofile2.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*me deka gehuwe header eke awula hdanan thiran kiyapu nisa*/
+  margin-top: 80px;
+  margin-bottom: -55px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+
+
+
+.forgotpwd{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("myprofile3.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*me deka gehuwe header eke awula hdanan thiran kiyapu nisa*/
+  margin-top: 80px;
+  margin-bottom: -60px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+
+.form-container3{
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),(rgba(0, 0, 0, 0.3)));
+  width: 380px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+ 
+}
+
+
+.allUserContainer{
+    margin-top: 10%;
+    margin-left: 50px;
+ 
+}
+
+.test{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  margin-left: 18px;
+  margin-top: 10%;
+  list-style: none;
+     text-align: center;
+
+}
+.h1123werwrwer{
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+  color:#000;
+}
+.selectDV{
+  width: 220px;
+  height: 25px;
+}
+.selectDV1{
+  width: 290px;
+  height: 35px;
+}
+
+
+/* Loader*/
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #23fa23;
+  border-color: #23fa23 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
